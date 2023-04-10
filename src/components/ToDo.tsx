@@ -1,12 +1,3 @@
-`작동 방법`
-```
-npm run start
-```
-# description
-react-hook-form, recoil 를 사용해 간단한 todoList를 만들어봤습니다.   
-typescript의 방식을 익히고 enum 과 interface를 사용하는 방법을 배웠습니다.   
-주요 코드는 아래와 같습니다.
-```jsx
 import { useSetRecoilState } from "recoil";
 import { Categories, IToDo, toDoState } from "../atoms";
 
@@ -40,6 +31,3 @@ const ToDo = ({ text, category, id }: IToDo) => {
 };
 
 export default ToDo;
-```
-
-
