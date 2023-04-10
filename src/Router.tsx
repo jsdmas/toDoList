@@ -3,7 +3,7 @@ import ToDoList from "./ToDoList";
 
 const Router = () => {
     return (
-        <BrowserRouter basename="/reacttodo">
+        <BrowserRouter>
             <Routes>
                 <Route path="/" element={<ToDoList />} />
             </Routes>
